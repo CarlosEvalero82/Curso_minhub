@@ -1,0 +1,185 @@
+/*fondo*/
+*{ 
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Barra de navegacion*/
+
+header, footer{
+    background-color: #a3ffac;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    background-image: url(IceCream1/5010916.jpg);
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style:normal;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.container{
+    padding: 20px 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono{
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    border: 3px solid #ffca99;
+    color: #0d0d0e;
+    font-weight: bold;
+}
+
+.container a[href= "#"]{
+    background-color: #ffca99;
+    color: #0d0d0e;
+}
+
+a:hover{
+    background-color: #ffca99;
+    color: #0d0d0e;
+}
+
+
+/*Pagina 1 Contenido*/
+
+
+.helado img{
+    height: 50vh;
+    width: 45vw;
+    object-fit: cover;
+}
+
+.helado1 img{
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+section h1, h3{
+    text-align: center;
+}
+
+.helado, .helado1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.helado h3{
+    text-align: center;
+}
+
+.helado1 p{
+    width: 60ch;
+}
+
+/*Pagina 2 contenido */
+
+section .HJ2{
+    display: flex;
+    align-items: center;
+}
+
+.HJ2{
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.plato img{
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
+.plato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.plato p {
+    width: 40ch;
+}
+
+/* Hoja 3 */
+
+.fin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fin img{
+    height: 50vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
+.fin p{
+    width: 36ch;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.datos h3{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+/* Pie de pagina*/
+
+footer{
+    background-size: cover;
+    background-position: center;
+    background-color: #a0d2f3;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    color: #fa5f49;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
